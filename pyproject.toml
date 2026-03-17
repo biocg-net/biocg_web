@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "biocg-web"
+dynamic = ["version"]
+description = "BioCG Web App"
+readme = "README.md"
+authors = [{ name = "Dee", email = "dee.sometech@gmail.com" }]
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.hatch.version]
+source = "vcs"
+fallback-version = "0.0.0"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "./src/biocg_web/_version.py"

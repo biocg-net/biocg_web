@@ -1,2 +1,2 @@
-# biocg.net
+# biocg_web
 BioCG webapp

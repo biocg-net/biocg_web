@@ -1,2 +1,5 @@
 # biocg_web
-BioCG webapp
+[BioCG](https://www.biocg.net) webapp
+
+# dev run
+uv run fastapi dev --reload -e biocg_web.app:app

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200px" height="200px" xmlns:bx="https://boxy-svg.com"><defs>
+    <linearGradient id="color-0" bx:pinned="true" gradientUnits="userSpaceOnUse">
+      <title>A</title>
+      <stop style="stop-color: rgb(255, 255, 255);"></stop>
+    </linearGradient>
+    <linearGradient id="color-1" bx:pinned="true" gradientUnits="userSpaceOnUse" gradientTransform="matrix(10, 0, 0, 1, 800.000012, 0)">
+      <title>B</title>
+      <stop style="stop-color: #1b2a4a;"></stop>
+    </linearGradient>
+  </defs><rect width="200" height="200" style="fill: url(#color-1);"></rect><rect width="120" height="120" style="fill: url(#color-0);" y="40" x="40"></rect><path d="M 0 20 L 100 20 L 200 20" style="fill: rgb(216, 216, 216); stroke-linejoin: bevel; stroke: url(#color-0); stroke-linecap: round; stroke-width: 20px; stroke-dasharray: 0, 36; stroke-dashoffset: -10px;">
+    <animate attributeName="stroke-dashoffset" values="-10px;206px" begin="0s" dur="1s" fill="freeze" keyTimes="0; 1"></animate>
+  </path><path d="M 0 180 L 100 180 L 200 180" style="fill: rgb(216, 216, 216); stroke-linejoin: bevel; stroke: url(#color-0); stroke-linecap: round; stroke-width: 20px; stroke-dasharray: 0, 36; stroke-dashoffset: -10px;">
+    <animate attributeName="stroke-dashoffset" values="-10px;206px" begin="0s" dur="1s" fill="freeze" keyTimes="0; 1"></animate>
+  </path><rect width="20" height="120" style="stroke-width: 1; fill: url(#color-0);" y="40" x="180"></rect><rect width="20" height="120" style="stroke-width: 1; fill: url(#color-0);" y="40"></rect><path style="fill: none; stroke-miterlimit: 30; stroke-dasharray: 735.61, 367.8; stroke-width: 10px; stroke: #b8922a;" d="M 0 99.94 L 81.772 100.016 L 91.715 70 L 101.552 130 L 111.306 100.148 L 200 100.119">
+    <animate attributeName="stroke-dashoffset" values="0px;-258.5px;-662.09px" dur="1s" fill="freeze" keyTimes="0; 0.49905; 1"></animate>
+    <animate attributeName="stroke-width" values="10px;1px;2.32172px;10px" begin="0s" dur="0.78s" fill="freeze" keyTimes="0; 0.49667; 0.95081; 1"></animate>
+  </path></svg>

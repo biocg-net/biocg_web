@@ -9,7 +9,11 @@ description = "BioCG Web App"
 readme = "README.md"
 authors = [{ name = "Dee", email = "dee.sometech@gmail.com" }]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.135.1",
+    "nicegui>=3.8.0",
+    "pydotenv>=0.0.7",
+]
 
 [tool.hatch.version]
 source = "vcs"
@@ -17,3 +21,8 @@ fallback-version = "0.0.0"
 
 [tool.hatch.build.hooks.vcs]
 version-file = "./src/biocg_web/_version.py"
+
+[dependency-groups]
+dev = [
+    "fastapi[standard]>=0.135.1",
+]
